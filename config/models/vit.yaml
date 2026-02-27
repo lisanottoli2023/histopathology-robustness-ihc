@@ -1,0 +1,8 @@
+
+
+model: 
+  architecture: "vit_base_patch16_224"
+
+training:
+  learning_rate: 2.0e-5
+  batch_size: 32

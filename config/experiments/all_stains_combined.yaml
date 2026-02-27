@@ -1,0 +1,8 @@
+
+
+data: 
+  stains_filter: null
+
+
+mlflow:
+  experiment_name: "all_stains_combined"
