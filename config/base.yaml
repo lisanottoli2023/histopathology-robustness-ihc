@@ -1,0 +1,41 @@
+
+
+data : 
+  dataset_path_train: "/home/lisa/Downloads/MIHIC_dataset/dataset/train"
+  dataset_path_val: "/home/lisa/Downloads/MIHIC_dataset/dataset/val"
+  dataset_path_test: "/home/lisa/Downloads/MIHIC_dataset/dataset/test"
+  image_size: 224
+  num_workers: 4
+  class_list: ["Immune cells", "Necrosis", "Other", "Stroma", "Tumor", "alveoli", "background"]
+  stains_filter: null
+
+model : 
+  architecture: "resnet50"
+  pretrained: true
+  num_classes: 7
+  dropout: 0.5
+
+training :
+  epochs: 30
+  batch_size: 64
+  optimizer: "adamw"
+  learning_rate: 1.0e-4
+  min_lr: 1.0e-6
+  scheduler: "cosine"
+  class_weights: true
+  early_stopping: true
+  seed: 42
+
+mlflow :
+  tracking_uri: "http://localhost:5000"
+  experiment_name: "histopathology_classification"
+
+checkpoints :
+  directory: "./checkpoints"
+  monitor_metric: "macro_f1"
+
+reports :
+  output_directory: "./reports"
+  figures : "./reports/figures"
+  tables : "./reports/tables"
+
