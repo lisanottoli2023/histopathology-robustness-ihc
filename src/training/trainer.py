@@ -3,7 +3,8 @@ import torch
 from collections import Counter 
 from sklearn.metrics import f1_score
 from pathlib import Path 
-from utils.mlflow_utils import log_metrics
+from src.utils.mlflow_utils import log_metrics
+
 
 
 

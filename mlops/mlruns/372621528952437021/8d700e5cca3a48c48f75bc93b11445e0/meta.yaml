@@ -1,0 +1,14 @@
+artifact_uri: file:///home/lisa/histopathology-robustness-ihc/mlops/mlruns/372621528952437021/8d700e5cca3a48c48f75bc93b11445e0/artifacts
+end_time: 1776365211027
+entry_point_name: ''
+experiment_id: '372621528952437021'
+lifecycle_stage: active
+run_id: 8d700e5cca3a48c48f75bc93b11445e0
+run_name: intelligent-eel-228
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776365211014
+status: 3
+tags: []
+user_id: lisa

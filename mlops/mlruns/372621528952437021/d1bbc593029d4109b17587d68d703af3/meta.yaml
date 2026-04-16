@@ -1,0 +1,14 @@
+artifact_uri: file:///home/lisa/histopathology-robustness-ihc/mlops/mlruns/372621528952437021/d1bbc593029d4109b17587d68d703af3/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '372621528952437021'
+lifecycle_stage: active
+run_id: d1bbc593029d4109b17587d68d703af3
+run_name: capable-auk-759
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776365261976
+status: 1
+tags: []
+user_id: lisa

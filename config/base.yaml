@@ -16,18 +16,21 @@ model :
   dropout: 0.5
 
 training :
-  epochs: 30
+  epochs: 2
   batch_size: 64
   optimizer: "adamw"
   learning_rate: 1.0e-4
   min_lr: 1.0e-6
   scheduler: "cosine"
   class_weights: true
+  weight_decay: 1.0e-4
   early_stopping: true
+  early_stopping_patience: 10
   seed: 42
 
 mlflow :
-  tracking_uri: "http://localhost:5000"
+  mlflow:
+  tracking_uri: "file:./mlops/mlruns"
   experiment_name: "histopathology_classification"
 
 checkpoints :

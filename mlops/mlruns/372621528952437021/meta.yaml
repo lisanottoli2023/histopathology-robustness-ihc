@@ -1,0 +1,8 @@
+artifact_location: file:///home/lisa/histopathology-robustness-ihc/mlops/mlruns/372621528952437021
+creation_time: 1776365210602
+experiment_id: '372621528952437021'
+last_update_time: 1776365210602
+lifecycle_stage: active
+name: all_stains_combined
+trace_location: null
+workspace: default
