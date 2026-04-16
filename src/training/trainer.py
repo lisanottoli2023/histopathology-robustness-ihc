@@ -3,7 +3,7 @@ import torch
 from collections import Counter 
 from sklearn.metrics import f1_score
 from pathlib import Path 
-from mlflow_utils import log_metrics
+from utils.mlflow_utils import log_metrics
 
 def __init__(self, model, train_loader, val_loader, cfg):
     self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
